@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tashkent Golf Academy — Premium golf lessons, memberships, and corporate events in Tashkent, Uzbekistan.">
+  <title>Tashkent Golf Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- ================================================
+     HEADER
+     ================================================ -->
+<header id="header">
+  <div class="logo">
+    <div class="logo-icon">⛳</div>
+    <div class="logo-text">Tashkent <span>Golf</span></div>
+  </div>
+
+  <nav id="main-nav">
+    <a href="#about"    data-i18n="nav_about">About Golf</a>
+    <a href="#services" data-i18n="nav_services">Services</a>
+    <a href="#gallery"  data-i18n="nav_gallery">Gallery</a>
+    <a href="#pricing"  data-i18n="nav_pricing">Pricing</a>
+    <a href="#contact"  data-i18n="nav_contact">Contact</a>
+  </nav>
+
+  <div class="lang-switcher" aria-label="Language switcher">
+    <button class="lang-btn active" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ru">RU</button>
+    <button class="lang-btn" data-lang="uz">UZ</button>
+    <button class="lang-btn" data-lang="kr">KR</button>
+  </div>
+
+  <div class="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+
+<!-- ================================================
+     HERO
+     ================================================ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-subtitle" data-i18n="hero_subtitle">Tashkent Golf Academy</div>
+
+    <h1 class="hero-headline">
+      <span data-i18n="hero_headline">Discover Golf</span>
+      <em>in Tashkent</em>
+    </h1>
+
+    <p class="hero-description" data-i18n="hero_description">
+      Where elegance meets the fairway. Tashkent's premier golf destination for beginners, professionals, and corporate guests.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#contact" class="btn-primary" data-i18n="hero_cta">Book Your First Lesson</a>
+      <a href="#about"   class="btn-outline" data-i18n="hero_cta_secondary">Explore Academy</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+
+<!-- ================================================
+     ABOUT
+     ================================================ -->
+<section id="about">
+  <div class="about-visual fade-in">
+    <img
+      class="about-main-img"
+      src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=900&q=80"
+      alt="Golfer on a green fairway"
+      loading="lazy"
+    >
+    <img
+      class="about-accent-img"
+      src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=600&q=80"
+      alt="Golf club and ball"
+      loading="lazy"
+    >
+    <div class="about-badge">
+      <div class="about-badge-num">8+</div>
+      <div class="about-badge-text">Years of<br>Excellence</div>
+    </div>
+  </div>
+
+  <div class="about-content fade-in">
+    <div class="section-tag" data-i18n="about_tag">The Sport of Champions</div>
+    <h2 class="section-headline" data-i18n="about_headline">Golf Is Easier Than You Think</h2>
+
+    <p data-i18n="about_text1">
+      Golf is not just a sport — it's a lifestyle. A place where business deals are made, friendships are forged, and the mind finds peace on open greens.
+    </p>
+    <p data-i18n="about_text2">
+      Whether you've never held a club or you're looking to refine your game, Tashkent Golf Academy welcomes everyone.
+    </p>
+
+    <a href="#contact" class="btn-primary" data-i18n="about_cta">Start Your Journey</a>
+
+    <div class="about-features">
+      <div class="feature-card">
+        <div class="feature-icon">🏌️</div>
+        <div class="feature-title" data-i18n="about_feature1_title">Beginner Friendly</div>
+        <div class="feature-text"  data-i18n="about_feature1_text">Zero experience required. Our coaches make learning fun and stress-free.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title" data-i18n="about_feature2_title">Premium Facilities</div>
+        <div class="feature-text"  data-i18n="about_feature2_text">World-class driving range, putting greens, and full-course access.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <div class="feature-title" data-i18n="about_feature3_title">Elite Community</div>
+        <div class="feature-text"  data-i18n="about_feature3_text">Network with Tashkent's professionals, entrepreneurs, and diplomats.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================
+     SERVICES
+     ================================================ -->
+<section id="services">
+  <div class="fade-in" style="margin-bottom:0">
+    <div class="section-tag" data-i18n="services_tag">What We Offer</div>
+    <h2 class="section-headline" data-i18n="services_headline">Tailored Experiences for Every Player</h2>
+  </div>
+
+  <div class="services-grid" style="margin-top:60px">
+
+    <div class="service-card fade-in">
+      <div class="service-number">01</div>
+      <div class="service-icon-wrap">🎯</div>
+      <h3 class="service-title" data-i18n="service1_title">Private Coaching</h3>
+      <p class="service-text"   data-i18n="service1_text">One-on-one lessons with PGA-certified coaches. Personalized plans for your skill level and schedule.</p>
+      <span class="service-link" data-i18n="service_learn_more">Learn More →</span>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-number">02</div>
+      <div class="service-icon-wrap">🏌️‍♀️</div>
+      <h3 class="service-title" data-i18n="service2_title">Equipment Rental</h3>
+      <p class="service-text"   data-i18n="service2_text">Premium club sets, carts, and gear available by the hour or day. No ownership required.</p>
+      <span class="service-link" data-i18n="service_learn_more">Learn More →</span>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-number">03</div>
+      <div class="service-icon-wrap">🥂</div>
+      <h3 class="service-title" data-i18n="service3_title">Club Events</h3>
+      <p class="service-text"   data-i18n="service3_text">Seasonal tournaments, social mixers, and member-exclusive events throughout the year.</p>
+      <span class="service-link" data-i18n="service_learn_more">Learn More →</span>
+    </div>
+
+    <div class="service-card fade-in">
+      <div class="service-number">04</div>
+      <div class="service-icon-wrap">💼</div>
+      <h3 class="service-title" data-i18n="service4_title">Corporate Golf</h3>
+      <p class="service-text"   data-i18n="service4_text">Host your next business meeting on the green. Team-building packages and private events available.</p>
+      <span class="service-link" data-i18n="service_learn_more">Learn More →</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================================================
+     GALLERY
+     ================================================ -->
+<section id="gallery">
+  <div class="gallery-header fade-in">
+    <div class="section-tag" data-i18n="gallery_tag">Life at the Academy</div>
+    <h2 class="section-headline" data-i18n="gallery_headline">Where Every Round Tells a Story</h2>
+  </div>
+
+  <div class="gallery-grid fade-in">
+    <div class="gallery-item g1">
+      <img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=900&q=80" alt="Golf course aerial view" loading="lazy">
+    </div>
+    <div class="gallery-item g2">
+      <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=700&q=80" alt="Golfer teeing off at sunset" loading="lazy">
+    </div>
+    <div class="gallery-item g3">
+      <img src="https://images.unsplash.com/photo-1574015974293-817f0ebebb74?w=600&q=80" alt="Golf ball on green" loading="lazy">
+    </div>
+    <div class="gallery-item g4">
+      <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=700&q=80" alt="Players on the fairway" loading="lazy">
+    </div>
+    <div class="gallery-item g5">
+      <img src="https://images.unsplash.com/photo-1598153346810-860daa814c4b?w=800&q=80" alt="Golf club close-up" loading="lazy">
+    </div>
+    <div class="gallery-item g6">
+      <img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=600&q=80" alt="Golf lesson coaching" loading="lazy">
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================
+     PRICING
+     ================================================ -->
+<section id="pricing">
+  <div class="fade-in">
+    <div class="section-tag" data-i18n="pricing_tag">Membership &amp; Lessons</div>
+    <h2 class="section-headline" data-i18n="pricing_headline">Invest in Your Game</h2>
+    <p class="pricing-note" data-i18n="pricing_note">All plans include access to driving range and locker facilities.</p>
+  </div>
+
+  <div class="pricing-grid fade-in">
+
+    <!-- Plan 1 -->
+    <div class="plan-card">
+      <div class="plan-name" data-i18n="plan1_name">Starter</div>
+      <div>
+        <span class="plan-price" data-i18n="plan1_price">$49</span>
+        <span class="plan-period" data-i18n="plan1_period">/ session</span>
+      </div>
+      <div class="plan-desc" data-i18n="plan1_desc">Perfect for first-timers</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature" data-i18n="plan1_f1">1 Private Lesson (60 min)</li>
+        <li class="plan-feature" data-i18n="plan1_f2">Equipment Rental Included</li>
+        <li class="plan-feature" data-i18n="plan1_f3">Range Access</li>
+        <li class="plan-feature" data-i18n="plan1_f4">Welcome Gift</li>
+      </ul>
+      <a href="#contact" class="btn-primary plan-cta" data-i18n="plan_cta">Get Started</a>
+    </div>
+
+    <!-- Plan 2 — Featured -->
+    <div class="plan-card featured">
+      <div class="plan-badge" data-i18n="plan_popular">Most Popular</div>
+      <div class="plan-name" data-i18n="plan2_name">Pro Member</div>
+      <div>
+        <span class="plan-price" data-i18n="plan2_price">$199</span>
+        <span class="plan-period" data-i18n="plan2_period">/ month</span>
+      </div>
+      <div class="plan-desc" data-i18n="plan2_desc">Most popular choice</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature" data-i18n="plan2_f1">4 Private Lessons / Month</li>
+        <li class="plan-feature" data-i18n="plan2_f2">Unlimited Range Access</li>
+        <li class="plan-feature" data-i18n="plan2_f3">Equipment Storage</li>
+        <li class="plan-feature" data-i18n="plan2_f4">Priority Booking</li>
+        <li class="plan-feature" data-i18n="plan2_f5">Members Events Access</li>
+      </ul>
+      <a href="#contact" class="btn-primary plan-cta" data-i18n="plan_cta">Get Started</a>
+    </div>
+
+    <!-- Plan 3 -->
+    <div class="plan-card">
+      <div class="plan-name" data-i18n="plan3_name">Elite</div>
+      <div>
+        <span class="plan-price" data-i18n="plan3_price">$499</span>
+        <span class="plan-period" data-i18n="plan3_period">/ month</span>
+      </div>
+      <div class="plan-desc" data-i18n="plan3_desc">For serious players</div>
+      <div class="plan-divider"></div>
+      <ul class="plan-features">
+        <li class="plan-feature" data-i18n="plan3_f1">Unlimited Private Lessons</li>
+        <li class="plan-feature" data-i18n="plan3_f2">Full Course Access</li>
+        <li class="plan-feature" data-i18n="plan3_f3">Personal Coach Assignment</li>
+        <li class="plan-feature" data-i18n="plan3_f4">VIP Lounge Access</li>
+        <li class="plan-feature" data-i18n="plan3_f5">Corporate Event Discounts</li>
+        <li class="plan-feature" data-i18n="plan3_f6">Annual Tournament Entry</li>
+      </ul>
+      <a href="#contact" class="btn-primary plan-cta" data-i18n="plan_cta">Get Started</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================================================
+     CONTACT
+     ================================================ -->
+<section id="contact">
+  <div class="contact-left fade-in">
+    <div class="section-tag" data-i18n="contact_tag">Get In Touch</div>
+    <h2 class="section-headline" data-i18n="contact_headline">Ready to Swing?</h2>
+    <p class="contact-description" data-i18n="contact_description">
+      Book your first lesson today or reach out with any questions. Our team is here to help you find the perfect plan.
+    </p>
+
+    <div class="contact-actions">
+      <a href="https://wa.me/998901234567" target="_blank" rel="noopener" class="contact-btn whatsapp-btn">
+        <span class="contact-btn-icon">💬</span>
+        <span class="contact-btn-text" data-i18n="contact_whatsapp">Chat on WhatsApp</span>
+      </a>
+      <a href="https://t.me/tashkentgolf" target="_blank" rel="noopener" class="contact-btn telegram-btn">
+        <span class="contact-btn-icon">✈️</span>
+        <span class="contact-btn-text" data-i18n="contact_telegram">Message on Telegram</span>
+      </a>
+    </div>
+
+    <div class="contact-info">
+      <div class="info-item">
+        <span class="info-icon">📞</span>
+        <span data-i18n="contact_phone">+998 90 123 45 67</span>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">✉️</span>
+        <span data-i18n="contact_email">hello@tashkentgolf.uz</span>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">📍</span>
+        <span data-i18n="contact_address">Tashkent, Yunusabad District</span>
+      </div>
+      <div class="info-item">
+        <span class="info-icon">🕐</span>
+        <span data-i18n="contact_hours">Daily: 7:00 AM – 8:00 PM</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-visual fade-in">
+    <div class="contact-map-placeholder">
+      <div class="map-icon">🗺️</div>
+      <div class="map-pin"></div>
+      <div class="map-label">Tashkent, Yunusabad</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================
+     FOOTER
+     ================================================ -->
+<footer>
+  <div>
+    <div class="footer-logo">Tashkent <span>Golf</span> Academy</div>
+    <div class="footer-tagline" data-i18n="footer_tagline">Tashkent's Premier Golf Academy</div>
+  </div>
+  <div class="footer-copy" data-i18n="footer_copy">© 2025 Tashkent Golf Academy. All rights reserved.</div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
